@@ -1,0 +1,226 @@
+/*Custom css File*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: #566375;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+    margin-top: 30px;
+}
+.container {
+    width: 90%;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    padding-left: 70px;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 36px;
+}
+.navbar {
+    position: relative;
+    min-height: 90px;
+    margin-bottom: 0px;
+}
+.navbar-default {
+    background: none;
+    border: none;
+    /* background-color: #f8f8f8; */
+    /* border-color: #e7e7e7; */
+}
+
+.carousel-inner>.item>img {
+    line-height: 1;
+    width: 100%;
+}
+.detail {
+    margin-top: 50px;
+}
+.detail h3{
+       font-size: 15px;
+        
+    }
+
+.detail h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.detail p {
+       font-size: 19px;
+        
+    }
+
+@media (max-width: 767px){
+    .detail h3{
+       font-size: 18px;
+    }
+    .detail h1{
+        font-size: 22px;
+        margin: 0px;
+    }
+    .detail {
+    margin-top: 15px;
+    }
+    .detail p {
+    font-size: 14px;
+        margin-top: 10px;
+    }
+    .details{
+        overflow: hidden;
+    }
+    /**/
+    
+    .banne img {
+    margin: 0px;
+    width: 100%;
+    }
+    .banne h3 {
+    font-size: 13px;
+    }
+    .banne h1 {
+    font-size: 22px;
+    }
+    .banne p {
+    font-size: 15px;  
+    }
+    .banne {overflow: hidden;}
+    .col-sm-12.col-md-6 {
+    margin: 60px 0px;
+    }
+    .signup h1{font-size: 22px;
+    }
+    
+.form-control {
+    display: block;
+    width: 100%;
+    border-radius: 0px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    /* color: #555; */
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    /* border-radius: 0px; */
+    border: none;
+    border-bottom: 1px solid;
+    }
+    .signup form {
+    width: 254px;
+    height: px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+      button {
+   width: 70px;
+    height: 32px;
+    border-radius: 7px;
+    box-shadow: none;
+    background: white;
+    font-weight: bold;
+    border: 2px solid;
+    margin-top: -8px;
+     margin-bottom: 15px;
+          transition: 0.3sc;
+}
+ .signup {
+    text-align: center;
+    margin-top: -20px;
+}
+    button:hover{background-color: black;color: white;}
+}
+
+@media (min-width: 1200px) { 
+    .banne img {
+    margin: 60px 0px 0px 50px;
+        
+    }
+    .banne h3 {
+    margin: 24px 50px;
+    font-size: 15px;
+    }
+    .banne h1 {
+    margin: 7px 50px;
+    font-size: 31px;
+    }    
+    .banne p {
+    margin: 0px 50px;
+    font-size: 17px;
+    }
+    .signup {
+    text-align: center;
+    height: 200px;
+    }
+    .signup form {
+    width: 438px;
+    height: 28px;
+    margin-left: 318px;
+    margin-top: 30px;
+    }
+    .signup {
+    text-align: center;
+    margin-top: 100px;
+    }
+
+
+
+    .form-control {
+    display: block;
+    width: 100%;
+    border-radius: 0px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    /* color: #555; */
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    /* border-radius: 0px; */
+    border: none;
+    border-bottom: 1px solid;}
+    
+    button {
+    width: 100px;
+    height: 37px;
+    border-radius: 5px;
+    box-shadow: none;
+    background: white;
+    font-weight: bold;
+    border: 2px solid;
+    margin-top: 40px;
+        margin-bottom: 20px;
+}
+} 
+/*
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
